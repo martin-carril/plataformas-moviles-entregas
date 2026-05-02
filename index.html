@@ -3,53 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP 1</title>
-    <style>
-        h1{color: blue;}
-        h3{color: red;}
-    </style>
+    <title>Plataformas Moviles</title>
+    <link rel="stylesheet" href="index.css"> <!-- El CSS, seguido de fuentes de google para que quede re piola B) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>PLATAFORMAS MÓVILES</h1><br>
-1 - ¿Que diferencias hay entre un smartphone y un feature phone (o dumb phone)?<br>
-2 - ¿Qué diferencias encontrás entre un teléfono móvil (smartphone) y una computadora? ¿Y qué similitudes?<br>
-3 - ¿Que sistema(s) operativo(s) de computadora conocés?¿Y de smartphones?<br>
-4 - ¿Que es la arquitectura o juego de instrucciones de un procesador?<br>
-5 - ¿Cual es la diferencia entre un lenguaje de programación compilado y un lenguaje de programación interpretado?<br>
-6 - ¿Conocés la diferencia entre tipado estático y tipado dinámico de datos?<br>
-7 - ¿Conocés la diferencia entre error semántico y error sintáctico?<br>
-<br>
-1 – Un smartphone es un teléfono celular con capacidades más allá de comunicación básica, permiten ejecutar aplicaciones desde la ofimática, edición, diseño gráfico, videojuegos y hasta virtualización de sistemas de escritorio; aprovechando a pleno sus procesadores ARM (los cuáles se usan en la mayoría de smartphones). En pocas palabras, son teléfono celulares y sirven como tales, pero con suficiente conocimiento y buen uso de su hardware y software; pueden ser equivalentes a una computadora también. En cambio, los feature phones se enfocan pura y llanamente en su función como teléfonos (por ello el nombre feature phones) y sólamente sirven para la comunicación. Mensajes de texto, llamadas, y como mucho personalización; un feature phone no suele tener más que eso. Por lo tanto, un “dumb phone” no podría acceder a un sitio web convencional, pero un smartphone debería poder acceder a casi cualquier página sin problemas.<br>
-2 – Un smartphone es un dispositivo “limitado” en la mayoría de los casos, tanto por su hardware como su software, ya que casi no hay teléfonos de alta gama que sean tan potentes como computadoras de escritorio decentes. Esto se debe a que no pueden implementar procesadores con demasiados núcleos, ya que necesitarían refrigeración que le quitaría la portabilidad al teléfono celular. Lo mismo aplica para la memoria, almacenamiento, y unidad de procesamiento gráfico del smartphone; ya que emplear una tarjeta gráfica dedicada en un smartphone no sería viable por su tamaño y requisitos energéticos. Todo esto pone en claro el propósito de un smartphone, debe ser ligero, debe ser eficiente con su energía, y no debe recalentarse excesivamente. Todos estos principios son distintos en una computadora de escritorio, ya que puede (y debe) consumir mucha más energía para ejecutar tareas más demandantes, no es necesario que entre en un bolsillo, y tiene acceso a mejoras de hardware significativas. Adicionalmente, los procesadores de escritorio suelen ser x86_64, mientras que las chromebooks, consolas portátiles y smartphones suelen poseer procesadores ARM; por lo que los sistemas operativos y aplicaciones disponibles difieren entre esas plataformas. Ejemplos de esto son iOS y Android para smartphones, y Windows, Linux o MacOS para computadoras. Pero mientras que cumplen necesidades distintas, ambas tienen un CPU, memoria RAM, almacenamiento, y permiten el uso de periféricos (además de firmware personalizado en algunos casos); por lo que ambas plataformas pueden ser denominadas como “computadoras”.<br>
-3 – Para escritorios, conozco Microsoft Windows, MacOS, FreeBSD, ReactOS, TempleOS y sistemas operativos a base de Linux (Debian, Ubuntu, Arch Linux, Kali Linux, OpenSuse, Fedora, RHEL, Pop!_OS, Linux Mint, CachyOS, Bazzite, Tiny Core Linux, Alma Linux, Tails, Proxmox, Alpine Linux, Entre otros). No todos los sistemas operativos en esta lista son tan viables para uso diario o profesional como otros, pero todos tienen su razón de ser ;)<br>
-<br>
-En cambio, para smartphones, existen Android, iOS, Ubuntu Touch, PostmarketOS, LineageOS, y GrapheneOS. Los últimos 3 se enfocan en la privacidad y ciberseguridad como sus principios fundamentales, aunque su hardware compatible es limitado; pero sus usos no lo son.<br><br>
-4 – La arquitectura del procesador rige sus capacidades de ejecución de software desde aplicaciones hasta sistemas operativos, variando en cuanto a potencia y portabilidad. Los más comunes son x86_64, ARM y ARM64. En términos simples, “es el idioma que habla el hardware”. Utilizar aplicaciones de x86_64 en ARM, por ejemplo, requiere una “capa de traducción” (comúnmente conocida como translation layer) como lo son Winlator y el inconcluso Lepton para que el procesador ARM pueda ejecutar las órdenes de procesadores x86_64 hardware no nativo a dicho juego de instrucciones. Estas tecnologías se encuentran en continuo desarrollo sin embargo, por lo que es mejor averiguar la arquitectura de un procesador y definir su potencial uso antes de adquirirlo, especialmente al tratarse de aplicaciones de uso profesional y/o productivo.<br>
-5 – Luego de investigar, llegué a las siguientes conclusiones: Un lenguaje de programación compilado es “legible” por el equipo sin necesidad de pasos adicionales y el código se ejecuta nativamente en el equipo tal y como se escribió. Mientras que un lenguaje de programación interpretado es uno donde un “intérprete” le traduce las instrucciones a la máquina para que sea capaz de ejecutar las instrucciones. Ejemplos de esto son la ejecución del código binario, o las “capas de traducción” que se habían mencionado antes ;)<br>
-6 - Después de investigar, llegué a las siguientes conclusiones: El tipado estático de datos resuelve los valores de las variables, tipos de datos, y información similar en el momento en el que se ejecuta el programa (ni antes ni después), siendo un método bien optimizado y amigable con los recursos del sistema pero requiere valores “consistentes” para que todo funcione correctamente. Un programa que hace uso de dicho tipado es el C. El tipado dinámico de datos, en cambio, resuelve dicha información durante la ejecución del programa, esto permite más flexibilidad a la hora de programar pero demanda más recursos a la hora de ejecutar el código. Java hace uso de este tipado.<br>
-7 – Un error sintáctico conlleva haber violado el formato y/o estándares del lenguaje en el que se está escribiendo el texto/código, en cuanto a la programación, un error de sintáxis podría causar crasheos, errores de compilación o un programa defectivo. Por ejemplo, olvidarse de agregar ; al final de una línea de código, no cerrar un paréntesis, no utilizar llaves donde se necesitan, entre otros errores comúnes serían errores de sintaxis. En cambio, los errores semánticos en la programación serían aquellos que no presentan una señal de error, comúnmente presentes en lenguajes como PHP (donde el código erróneo no se ejecuta, es salteado, o es visible pero no funciona).<br>
-<hr>
-<h1>TECNOLOGÍAS WEB</h1><br>
-1 - ¿Qué es HTML? ¿Para qué sirve?<br>
-2 - ¿Qué es CSS? ¿Para qué sirve?<br>
-3 - ¿Cómo se relacionan CSS y HTML?<br>
-4 - ¿Qué es JavaScript?<br>
-5 - ¿Qué relación hay entre JavaScript y Java?<br>
-6 - ¿Que es un paradigma en un lenguaje de programación?<br>
-a - ¿Qué lenguajes de programación conocés?<br>
-b - ¿Podes asociar esos lenguajes con su(s) paradigma(s)?<br>
-7 - ¿Que es un estándar o especificación? Dar algunos ejemplos.<br>
-8 - ¿Conocés git? ¿Qué diferencia hay entre git y github?<br>
-<br>
-1 – HTML es un “lenguaje de marcado” el cuál sirve para diseñar páginas web. Es multiplataforma y sus instrucciones se encuentran presentes en todo momento, por lo que si un dispositivo tiene acceso a un viewport/navegador, la página web será visible. No requiere librerías adicionales para funcionar, y esta simplicidad acompañada de versatilidad le hizo alcanzar su éxito.<br>
-2 – CSS (Cascade Style Sheet/Hoja de Estilos en Cascada), es un lenguaje comúnmente utilizado junto a HTML para agregarle estilo visual y abrir posibilidades de desarrollo en una página web. Sus opciones de personalización hacen posibles darle un toque profesional a un sitio web que HTML por si solo casi nunca puede alcanzar, por lo que utilizar ambos lenguajes en conjunto suele resultar en sitios web más que presentables.<br>
-3 – CSS y HTML se relacionan mediante la sección “head” de HTML, permitiendo a HTML “leer” las secciones modificadas por CSS y aplicando los cambios a la página web afectada. Ambos se necesitan<br>
-4 - JavaScript es un lenguaje de programación principalmente útil junto a HTML cuyo propósito es agregar funcionalidad a páginas web. Elementos interactivos como carrouseles, botones dinámicos, programación orientada a objetos, guardado de datos, entre muchas funciones avanzadas; se pueden lograr con JavaScript y “le pueden dar vida” mediante interactividad a cualquier sitio web.<br>
-5 – JavaScript y Java son dos lenguajes de programacion distintos, el primero siendo utilizado en Web y el segundo (creado por Oracle) en desarrollo de software; por ejemplo videojuegos como Minecraft y Project Zomboid siendo codificados casi completamente en Java. Por lo tanto, tras investigar su relación, he descubierto que JavaScript fue creado por Netscape Inc. y no por Oracle, por lo que funcionalmente, no tienen relación alguna; solamente un nombre similar y nada más.<br>
-6 – Después de investigar el contexto, llegué a la conclusión de que un paradigma es un método de representar y estructurar la implementación de un programa; similar a los ordinogramas vistos en 4° año pero de un nivel más avanzado.<br>
-a – Conozco C, C++, PHP, Python, Ruby, Perl, Java, Rust, Haskell, Swift y Kotlin!<br>
-b – Existen paradigmas como los orientados a objetos, procedurales, lógicos, entre otros… sin embargo, mientras que creo comprender qué propósito tiene cada uno, no poseo conocimiento lo suficientemente profundo en cada uno de estos lenguajes como para asociarlo con un paradigma...<br>
-7 – Los estándares y/o especificaciónes son un conjunto de normas a seguir en un proyecto que “unifican” las formas de trabajo de los involucrados al requerir cierta estructura para que todo funcione. Un ejemplo de esto sería un framework, ya que no son tan “libres” como el código vanilla de un programa y requieren seguir lo establecido sí o sí; permitiendo que gente “ajena” al proyecto pueda entender el código con facilidad sin la necesidad de aprender todo desde cero. Todo gracias a los estándares, que aplican su metodología sin excepciones!<br>
-8 – Git fue un programa creado por Linus Torvalds durante su desarrollo del kernel de Linux, su propósito era controlar cambios entre versiones diferentes del kernel y facilitar la cooperacion de otros desarrolladores (con el fin de seguir el principio “libre y de código abierto” establecido por la fundación del software libre), pero incluso una vez que sistemas operativos a base de Linux y GNU fueron creados; Git seguía teniendo un propósito y no dejó de tener uso desde entonces. Github fue creado como una alternativa a Git con más herramientas, hasta permitiendo su uso en la web, haciendo a la experiencia mucho más amigable para los desarrolladores que la Interfaz de Línea de Comandos que va de la mano con Git. El desarrollo de Github fue tan exitoso que el proyecto fue comprado por Microsoft, causando la llegada de otras plataformas alternativas a Github con propósitos similares (como Gitlab). Para resumir, Git se ejecuta desde una terminal, pero Github es utilizable desde la web y posee más herramientas que Git.<br>
+    <h1 class="header">Martin Carril - Plataformas Moviles</h1>
+    <h3 class="header">Este sitio posee mis trabajos prácticos realizados para la materia, accesibles mediante los hipervínculos inferiores! Hecho con amor ;D</h3>
+<div class="container"> 
+  <div class="column">
+    <a href=tp-0/index.html><img src="recursoscool/0.png" style="width:75%"></a><br>
+  </div>
+  <div class="column">
+    <a href=tp-1/index.html><img src="recursoscool/1.png" style="width:75%"></a><br>
+  </div>
+  <div class="column">
+    <a href=tp-2/index.html><img src="recursoscool/2.png" style="width:75%"></a><br>
+  </div>
+  <div class="column">
+    <a href=tp-3/index.html><img src="recursoscool/3.png" style="width:75%"></a><br>
+  </div>
+  <div class="column">
+    <a href=tp-4/index.html><img src="recursoscool/4.png" style="width:75%"></a><br>
+  </div>
+  </div>
+  <h6>"can i get a yee-haw?" :)</h6>
 </body>
 </html>
